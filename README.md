@@ -13,7 +13,8 @@ get an API key for Twitter. Throw those keys into `config.json` in your working 
 pip install git+https://github.com/ianunruh/import-from-twitter.git
 ```
 
-Then import `ift` and start importing modules from Twitter today!
+Then import `ift` and start importing modules from Twitter today! For example, use my
+[left_pad module](https://twitter.com/ianunruh/status/713091939805966337).
 
 ```python
 import ift
