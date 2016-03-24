@@ -15,6 +15,9 @@ def create_module(code):
     return module
 
 def import_from_twitter(tweet_id):
+    if not CONFIG:
+        configure()
+
     auth = tweepy.OAuthHandler(CONFIG['consumer_key'], CONFIG['consumer_secret'])
     auth.set_access_token(CONFIG['access_token'], CONFIG['access_token_secret'])
 

@@ -18,9 +18,7 @@ Then import `ift` and start importing modules from Twitter today! For example, u
 
 ```python
 import ift
-ift.configure()
-
 mymodule = ift.import_from_twitter('713091939805966337')
 
-print(mymodule.left_pad('helloworld', 15))
+print(mymodule.left_pad('helloworld', 15)) # => "     helloworld"
 ```
